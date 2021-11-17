@@ -1,0 +1,44 @@
+// header
+header{
+    margin: 20px;
+    font-family: "poppins";
+    .logo_header{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .navbar{
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content:center;
+            padding-top: 30px;
+
+            li{
+                margin: 5px;
+                color: grey;
+                font: "poppins";
+                .btnWhite{
+                    background-color: whitesmoke;
+                    height: 15px;
+                    width: 15px;
+                    border: 1px black solid;
+                }
+                .btnBlack{
+                    background-color: black;
+                    height: 15px;
+                    width: 15px;
+                    border: 1px grey solid;
+                }
+                .connexion{
+                    background-color: grey;
+                    color: whitesmoke;
+                    border: none;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+
+                }
+            }
+        }
+    }
+}

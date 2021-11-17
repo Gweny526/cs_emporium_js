@@ -1,0 +1,36 @@
+// section1
+.sec1{
+    background: linear-gradient(139deg, rgb(245, 245, 245) 0%, rgb(243,243,243) 100%);
+    height: 300px;
+    font-family: "poppins";
+    div{
+        position: relative;
+        h3{
+            color: rgb(192, 45, 45);
+            font-size: 30px;
+            padding-top: 30px;
+            padding-left: 250px;
+            margin-bottom: 0;
+        }
+        .logo{
+            width: 330px;
+            padding-left: 250px;
+        }
+        p{
+            font-family: "poppins";
+            color: grey;
+            font-size: small;
+            padding-left: 250px;
+            padding-right: 300px;
+        }
+
+        .t-shirt{
+            height: 250px;
+            width: 200px;
+            position: absolute;
+            top: 10%;
+            left: 55%;
+        }
+    
+    }
+}
