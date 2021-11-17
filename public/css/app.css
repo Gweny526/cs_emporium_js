@@ -6141,12 +6141,22 @@ header .navbar ul li .btnWhite {
   height: 15px;
   width: 15px;
   border: 1px black solid;
+  border-radius: 3px;
+}
+header .navbar ul li .btnWhite:hover {
+  border: lightseagreen 1px solid;
+  cursor: pointer;
 }
 header .navbar ul li .btnBlack {
   background-color: black;
   height: 15px;
   width: 15px;
-  border: 1px grey solid;
+  border: 1px black solid;
+  border-radius: 3px;
+}
+header .navbar ul li .btnBlack:hover {
+  border: lightyellow 1px solid;
+  cursor: pointer;
 }
 header .navbar ul li .connexion {
   background-color: grey;
@@ -6154,6 +6164,10 @@ header .navbar ul li .connexion {
   border: none;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+header .navbar ul li .connexion:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 
 .sec1 {
@@ -6182,12 +6196,127 @@ header .navbar ul li .connexion {
   padding-left: 250px;
   padding-right: 300px;
 }
+.sec1 div .btnSale {
+  border: none;
+  background-color: #c02d2d;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  color: #e9e9e9;
+  margin-left: 250px;
+}
+.sec1 div .btnSale:hover {
+  cursor: pointer;
+}
 .sec1 div .t-shirt {
   height: 250px;
   width: 200px;
   position: absolute;
   top: 10%;
   left: 55%;
+}
+
+.sec2 {
+  font-family: "poppins";
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sec2 .livingRoom {
+  background-image: url("../../../public/img/services/service-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 450px;
+  height: 150px;
+}
+.sec2 .livingRoom p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.sec2 .livingRoom hr {
+  color: white;
+  width: 350px;
+}
+.sec2 .saleItems {
+  background-image: url("../../../public/img/services/service-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 450px;
+  height: 150px;
+}
+.sec2 .saleItems p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.sec2 .saleItems hr {
+  color: white;
+  width: 350px;
+}
+.sec2 .clothes {
+  background-image: url("../../../public/img/services/slider-3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 450px;
+  height: 150px;
+}
+.sec2 .clothes p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.sec2 .clothes hr {
+  color: white;
+  width: 350px;
+}
+
+.container {
+  margin: 30px;
+  font-family: "poppins";
+}
+.container h3 {
+  margin-top: 100px;
+  text-align: center;
+}
+.container .first-line {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0 250px 0 250px;
+}
+.container .first-line img {
+  height: 250px;
+  width: 250px;
+}
+.container .first-line span {
+  color: #c02d2d;
+  font-weight: bold;
+}
+.container .first-line .reduc {
+  color: lightgray !important;
+}
+.container .sec-line {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0 250px 0 250px;
+}
+.container .sec-line img {
+  height: 250px;
+  width: 250px;
+}
+.container .third-line {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0 250px 0 250px;
+}
+.container .third-line img {
+  height: 250px;
+  width: 250px;
 }
 
 /*# sourceMappingURL=app.css.map */

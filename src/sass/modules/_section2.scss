@@ -1,0 +1,62 @@
+// section 2
+.sec2{
+    font-family: "poppins";
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    .livingRoom{
+        background-image: url("../../../public/img/services/service-1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 450px;
+        height: 150px;
+
+        p{
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
+        hr{
+            color: white;
+            width: 350px;
+            
+        }
+    }
+    .saleItems{
+        background-image: url("../../../public/img/services/service-2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 450px;
+        height: 150px;
+        p{
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
+        hr{
+            color: white;
+            width: 350px;
+            
+        }
+    }
+    .clothes{
+        background-image: url("../../../public/img/services/slider-3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 450px;
+        height: 150px;
+        p{
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
+        hr{
+            color: white;
+            width: 350px;
+            
+        }
+    }
+}

@@ -1,0 +1,47 @@
+// Section 3
+.container{
+    margin: 30px;
+    font-family: "poppins";
+    h3{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .first-line{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        padding: 0 250px 0 250px;
+        
+        img{
+            height: 250px;
+            width: 250px;
+        }
+        span{
+            color: rgb(192, 45, 45);
+            font-weight: bold;
+        }
+        .reduc{
+            color: lightgray!important;
+        }
+    }
+    .sec-line{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        padding: 0 250px 0 250px;
+        img{
+            height: 250px;
+            width: 250px;
+        }
+    }
+    .third-line{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        padding: 0 250px 0 250px;
+        img{
+            height: 250px;
+            width: 250px;
+        }
+    }
+}

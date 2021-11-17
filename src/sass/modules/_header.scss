@@ -23,12 +23,22 @@ header{
                     height: 15px;
                     width: 15px;
                     border: 1px black solid;
+                    border-radius: 3px;
+                }
+                .btnWhite:hover{
+                    border: lightseagreen 1px solid;
+                    cursor: pointer;
                 }
                 .btnBlack{
                     background-color: black;
                     height: 15px;
                     width: 15px;
-                    border: 1px grey solid;
+                    border: 1px black solid;
+                    border-radius: 3px;
+                }
+                .btnBlack:hover{
+                    border: lightyellow 1px solid;
+                    cursor: pointer;
                 }
                 .connexion{
                     background-color: grey;
@@ -37,6 +47,10 @@ header{
                     padding-top: 5px;
                     padding-bottom: 5px;
 
+                }
+                .connexion:hover{
+                    background-color: lightgray;
+                    cursor: pointer;
                 }
             }
         }

@@ -23,6 +23,17 @@
             padding-left: 250px;
             padding-right: 300px;
         }
+        .btnSale{
+            border: none;
+            background-color: rgb(192, 45, 45);
+            padding: 10px 20px 10px 20px;
+            border-radius: 15px;
+            color: rgb(233, 233, 233);
+            margin-left: 250px;
+        }
+        .btnSale:hover{
+            cursor: pointer;
+        }
 
         .t-shirt{
             height: 250px;
