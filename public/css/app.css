@@ -6274,7 +6274,7 @@ header .navbar ul li .connexion:hover {
 }
 
 .sec3 .container {
-  margin: 30px;
+  margin-bottom: 100px;
   font-family: "poppins";
 }
 .sec3 .container h3 {
@@ -6290,11 +6290,38 @@ header .navbar ul li .connexion:hover {
 .sec3 .container .first-line img {
   height: 250px;
   width: 250px;
+  transition: 0.1s;
 }
-.sec3 .container .first-line .text-img {
+.sec3 .container .first-line .text-img p {
+  font-weight: bold;
+}
+.sec3 .container .first-line .text-img span {
+  font-weight: bold;
+  color: #c02d2d;
+}
+.sec3 .container .first-line .logo-prix {
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.sec3 .container .first-line .logo-prix .vendu {
+  background-color: #c02d2d;
+  border-radius: 50%;
+  padding: 20px 15px 20px 15px;
+  color: white;
+}
+.sec3 .container .first-line .logo-prix .text-img2 {
+  padding-left: 10px;
+}
+.sec3 .container .first-line .logo-prix .text-img2 p {
+  font-weight: bold;
+}
+.sec3 .container .first-line .logo-prix .text-img2 .prix .reduc {
+  color: grey;
+  text-decoration-line: line-through;
+}
+.sec3 .container .first-line .logo-prix .text-img2 .prix .prix-v {
+  color: #c02d2d;
 }
 .sec3 .container .sec-line {
   display: flex;
@@ -6312,6 +6339,30 @@ header .navbar ul li .connexion:hover {
 .sec3 .container .sec-line span {
   color: #c02d2d;
   font-weight: bold;
+}
+.sec3 .container .sec-line .logo-prix {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.sec3 .container .sec-line .logo-prix .vendu {
+  background-color: #c02d2d;
+  border-radius: 50%;
+  padding: 20px 15px 20px 15px;
+  color: white;
+}
+.sec3 .container .sec-line .logo-prix .text-img2 {
+  padding-left: 10px;
+}
+.sec3 .container .sec-line .logo-prix .text-img2 p {
+  font-weight: bold;
+}
+.sec3 .container .sec-line .logo-prix .text-img2 .prix .reduc {
+  color: grey;
+  text-decoration-line: line-through;
+}
+.sec3 .container .sec-line .logo-prix .text-img2 .prix .prix-v {
+  color: #c02d2d;
 }
 .sec3 .container .third-line {
   display: flex;

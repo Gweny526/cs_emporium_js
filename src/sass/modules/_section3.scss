@@ -1,7 +1,7 @@
 // Section 3
 .sec3{
     .container{
-        margin: 30px;
+        margin-bottom: 100px;
         font-family: "poppins";
         h3{
             margin-top: 100px;
@@ -16,12 +16,47 @@
             img{
                 height: 250px;
                 width: 250px;
+                transition: 0.1s;
+            }
+            img:hover{
+                
             }
             .text-img{
+                p{
+                    font-weight: bold;
+                }
+                span{
+                    font-weight: bold;
+                    color: rgb(192, 45, 45);
+                }
+            }
+            .logo-prix{
                 display: flex;
-                justify-content: space-around;
-                flex-direction: column;
-                
+                justify-content: start;
+                align-items: center;
+                .vendu{
+                    background-color: rgb(192, 45, 45);
+                    // height: 50px;
+                    // width: 50px;
+                    border-radius: 50%;
+                    padding: 20px 15px 20px 15px;
+                    color: white;
+                }
+                .text-img2{
+                    p{
+                        font-weight: bold;
+                    }
+                    padding-left: 10px;
+                    .prix{
+                        .reduc{
+                            color: grey;
+                            text-decoration-line: line-through;
+                        }
+                        .prix-v{
+                            color: rgb(192, 45, 45);
+                        }
+                    }
+                }
             }
         }
         .sec-line{
@@ -39,6 +74,34 @@
             span{
                 color: rgb(192, 45, 45);
                 font-weight: bold;
+            }
+            .logo-prix{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                .vendu{
+                    background-color: rgb(192, 45, 45);
+                    // height: 50px;
+                    // width: 50px;
+                    border-radius: 50%;
+                    padding: 20px 15px 20px 15px;
+                    color: white;
+                }
+                .text-img2{
+                    p{
+                        font-weight: bold;
+                    }
+                    padding-left: 10px;
+                    .prix{
+                        .reduc{
+                            color: grey;
+                            text-decoration-line: line-through;
+                        }
+                        .prix-v{
+                            color: rgb(192, 45, 45);
+                        }
+                    }
+                }
             }
         }
         .third-line{
