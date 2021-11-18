@@ -6273,50 +6273,91 @@ header .navbar ul li .connexion:hover {
   width: 350px;
 }
 
-.container {
+.sec3 .container {
   margin: 30px;
   font-family: "poppins";
 }
-.container h3 {
+.sec3 .container h3 {
   margin-top: 100px;
   text-align: center;
 }
-.container .first-line {
+.sec3 .container .first-line {
   display: flex;
   justify-content: space-around;
   align-content: center;
   padding: 0 250px 0 250px;
 }
-.container .first-line img {
+.sec3 .container .first-line img {
   height: 250px;
   width: 250px;
 }
-.container .first-line span {
+.sec3 .container .first-line .text-img {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.sec3 .container .sec-line {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0 250px 0 250px;
+}
+.sec3 .container .sec-line img {
+  height: 250px;
+  width: 250px;
+}
+.sec3 .container .sec-line p {
+  font-weight: bold;
+}
+.sec3 .container .sec-line span {
   color: #c02d2d;
   font-weight: bold;
 }
-.container .first-line .reduc {
-  color: lightgray !important;
-}
-.container .sec-line {
+.sec3 .container .third-line {
   display: flex;
   justify-content: space-around;
   align-content: center;
   padding: 0 250px 0 250px;
 }
-.container .sec-line img {
+.sec3 .container .third-line img {
   height: 250px;
   width: 250px;
 }
-.container .third-line {
+.sec3 .container .third-line p {
+  font-weight: bold;
+}
+.sec3 .container .third-line span {
+  color: #c02d2d;
+  font-weight: bold;
+}
+
+.sec4 {
+  background-image: url("../../../public/img/cta-bg.jpg");
+  height: 1000px;
+}
+.sec4 .titre-4 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
-  padding: 0 250px 0 250px;
 }
-.container .third-line img {
-  height: 250px;
-  width: 250px;
+.sec4 .titre-4 h3 {
+  font-family: "poppins";
+  font-size: 40px;
+  color: white;
+  padding-top: 450Px;
+}
+.sec4 .btn-4 {
+  padding-left: 600px;
+}
+.sec4 .btn-4 button {
+  padding: 5px 10px 5px 10px;
+  background-color: #c24040;
+  border: none;
+  color: white;
+}
+.sec4 .btn-4 button:hover {
+  background-color: red;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */

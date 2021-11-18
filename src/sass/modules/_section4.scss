@@ -1,0 +1,32 @@
+// section4
+
+.sec4{
+    background-image: url("../../../public/img/cta-bg.jpg");
+    height: 1000px;
+    .titre-4{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+        h3{
+            font-family: "poppins";
+            font-size: 40px;
+            color: white;
+            padding-top: 450Px;
+
+        }
+    }
+    .btn-4{
+        padding-left: 600px;
+        button{
+            padding: 5px 10px 5px 10px;
+            background-color: rgb(194, 64, 64);
+            border: none;
+            color: white;
+        }
+        button:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+    }
+}
